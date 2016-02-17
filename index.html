@@ -7,15 +7,51 @@
 </head>
 <body>
     <div id="header">
-    	<img src="img/logo.png" alt="logo.png">
-    	<h3>SERVICES</h3>
-    	<h3>SOFTWARE</h3>
-    	<h3>CONNECT WITH US</h3>
-    	<input type="text" placeholder="Search">
-    	<img src="img/lupa.png" alt="lupa.png">
+    	
+        <img src="img/logo.png" alt="logo.png">
+        
+    	<div class="menu">
+            <h3 id="services" class="menutitle">SERVICES</h3>
+            
+        </div>
+
+    	<div class="menu">
+            <h3 id="software" class="menutitle">SOFTWARE</h3>
+            
+        </div>
+
+    	<div class="menu">
+            <h3 id="connect" class="menutitle">CONNECT WITH US</h3>
+            
+        </div>
+
+        <div>
+            <input id="search" type="text" placeholder="Search">
+            <img id="lupa" src="img/lupa.png" alt="lupa.png">
+        </div>     
+    	
     </div>
+    
+    <div id="boxes">
+        <div class="menuItems" id="servicesMenu">
+                <p>USER EXPERIENCE</p><p>GRAPHIC DESIGN</p><p>DEVELOPMENT</p>
+        </div>
+        <div class="menuItems" id="softwareMenu">
+                <p>MOBILE APPS</p><p>DESKTOP APPS</p><p>HYBRID APPS</p>
+        </div>
+        <div class="menuItems" id="connectMenu">
+                <p>F.A.Q.</p><p>E-MAIL US</p><p>ONLINE SUPPORT</p>
+        </div>
+    </div>
+
+
     <div id="slider">
-    	<img src="img/sliderImg1.png" alt="sliderimage.png">
+
+    	<figure class="show"><img src="img/sliderImages/sliderImg1.png" alt="sliderimage.png"/></figure>
+    	<figure><img src="img/sliderImages/sliderImg2.png" alt="sliderimage.png"/></figure>
+    	<figure><img src="img/sliderImages/sliderImg3.png" alt="sliderimage.png"/></figure>
+    	<img class="prev" src="img/leftArrow.png"/>
+	  	<img class="next" src="img/rightArrow.png"/>
     </div>
     <div id="middleNav">
     	<h4>AGENCIES</h4>
@@ -25,12 +61,12 @@
     	<h4>BLOG</h4>
     	<h4>NEWS</h4>
     	<h5>Follow us:</h5>
-    	<img src="img/twitter.png" alt="twitterImg">
-    	<img src="img/facebook.png" alt="facebookImg">
-    	<img src="img/youtube.png" alt="youtubeImg">
-    	<img src="img/linkedin.png" alt="linkedinImg">
-    	<img src="img/googleplus.png" alt="googleplusImg">
-    	<img src="img/rss.png" alt="rssImg">
+    	<img src="img/social/twitter.png" alt="twitterImg">
+    	<img src="img/social/facebook.png" alt="facebookImg">
+    	<img src="img/social/youtube.png" alt="youtubeImg">
+    	<img src="img/social/linkedin.png" alt="linkedinImg">
+    	<img src="img/social/googleplus.png" alt="googleplusImg">
+    	<img src="img/social/rss.png" alt="rssImg">
     </div>
     <div id="middle2">
     	<img src="img/testimonials.png" alt="Testimonials">
@@ -38,22 +74,17 @@
     	<img src="img/tryit.png" alt="Try It">
     </div>
     <div id="footer">
-    	<div id="footerTitles">
-    		<h4>Services</h4>
-    		<h4>Software</h4>
-    		<h4>Publishers</h4>
-    		<h4>Learning Center</h4>
-    		<h4>Why Centro</h4>
-    		<h4>More Centro</h4>
-    	</div>
+    	
     	<div id="footerBoxes">
 	    	<div id="servicesList">
+            <h4 class="footerTitle">Services</h4>
 	    		<a href="#">Media Strategy</a>
-	    		<a href="#">Media Planning AND Buying</a>
-	    		<a href="#">Campaign Management AND Analysis</a>
-	    		<a href="#">Contract Fulfillment AND Billing</a>
+	    		<a href="#">Media Planning &amp; Buying</a>
+	    		<a href="#">Campaign Management &amp; Analysis</a>
+	    		<a href="#">Contract Fulfillment &amp; Billing</a>
 	    	</div>
 	    	<div id="SoftwareList">
+            <h4 class="footerTitle">Software</h4>
 	    		<a href="#">Planner</a>
 	    		<a href="#">Insight</a>
 	    		<a href="#">Finance</a>
@@ -62,11 +93,13 @@
 	    		<a href="#">Support</a>
 	    	</div>
 	    	<div id="publishersList">
+            <h4 class="footerTitle">Publishers</h4>
 	    		<a href="#">Brand Exchange</a>
 	    		<a href="#">Publisher Logistics</a>
 	    		<a href="#">Become a Publisher</a>
 	    	</div>
 	    	<div id="learningCenterList">
+            <h4 class="footerTitle">Learning Center</h4>
 	    		<a href="#">Case Studies</a>
 	    		<a href="#">White Papers</a>
 	    		<a href="#">Creative Showcase</a>
@@ -74,12 +107,14 @@
 	    		<a href="#">Blog</a>
 	    	</div>
 	    	<div id="whyCentroList">
+            <h4 class="footerTitle">Why Centro</h4>
 	    		<a href="#">Subpage 1</a>
 	    		<a href="#">Subpage 2</a>
 	    		<a href="#">Subpage 3</a>
 	    		<a href="#">Subpage 4</a>
 	    	</div>
 	    	<div id="moreCentroList">
+            <h4 class="footerTitle">More Centro</h4>
 	    		<a href="#">About</a>
 	    		<a href="#">News</a>
 	    		<a href="#">Careers</a>
@@ -89,4 +124,5 @@
     	</div>
     </div>
 </body>
+<script src="js/script.js"></script>
 </html>
