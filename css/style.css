@@ -1,0 +1,77 @@
+@font-face {
+  font-family: "Hammersmith";
+  src: url(../fonts/HammersmithOne-Regular.ttf) format("regular");
+}
+body { font-family: "Hammersmith", sans-serif }
+
+
+#header {
+	text-align: center;
+	
+}
+
+#header img, #header h3{
+	display: inline;
+	margin-left: 5%;
+	color: #004964;
+}
+#header img {
+	margin-left: -4px;
+}
+
+#middleNav {
+	background-color: #004964;
+}
+
+#middleNav img, #middleNav h4, #middleNav h5{
+	display: inline;
+	margin-left: 5%;
+	color: #FFFFFF;
+	height: 30px;
+
+}
+
+#middleNav img {
+	margin-left: 2px;
+}
+
+#middle2 {
+	text-align: center;
+	margin-top: 30px;
+}
+
+
+#footer {
+	width: 98%;
+	text-align: center;
+	background-color: #EBEBEB;
+}
+
+#footer h4 {
+	display: inline;
+
+	margin-left: 9%;
+}
+
+#footerTitles {
+	color: #16A5A9;
+	border-bottom: 1px solid grey;
+}
+
+#footerBoxes div {
+
+	display: inline-block;
+}
+
+div a {
+	color: #707070;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+	margin-left: 9%;
+}
+
+
+
+
+
