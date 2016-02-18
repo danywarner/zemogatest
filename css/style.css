@@ -123,17 +123,16 @@ body {
 }
 
  figure{
+	
  	text-align: center;
   	position: absolute;
   	opacity: 0;
-  	transition: 1s opacity;
 }
 
 figure.show{
 	text-align: center;
   	opacity: 1;
   	position: static;
-  	transition: 1s opacity;
 }
 
 .next, .prev{

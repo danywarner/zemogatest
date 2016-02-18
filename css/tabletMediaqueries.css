@@ -1,0 +1,86 @@
+/*tablets*/
+@media all and (min-device-width: 768px) and (max-device-width: 1024px) {
+	#searchBox {
+		visibility: hidden;
+	}
+	#header img, #header div, .menutitle{
+		margin-left: 10px;
+	}
+	#boxes {
+		margin-top: -40px;
+		margin-left: 330px;
+	}
+	#boxes div{
+		margin-left: 3px;
+		display: inline-block;
+	}
+	
+	
+	figure img{
+		width: 800px ;
+		height: auto;
+	}
+
+
+	#middleNav img, #middleNav h4, #middleNav h5{
+		margin-left: 10px;
+	}
+	#footer h4 {
+		margin-left: 20px;
+	
+	}
+
+	div a {
+		margin-left: 20px;
+	}
+}
+/*tablets in Portait mode*/
+@media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+
+	#header {
+		width: 100%;
+	}
+
+	#header img, #header div, .menutitle{
+		margin-left: 3px;
+	}
+
+	#boxes {
+		margin-top: -40px;
+		margin-left: 211px;
+	}
+	#boxes div{
+		margin-left: 0px;
+		display: inline-block;
+	}
+
+	figure img{
+		width: 600px ;
+		height: auto;
+	}
+
+	#middleNav img, #middleNav h4, #middleNav h5{
+		margin-left: 25px;
+	}
+
+	.social {
+		display: none !important;
+	}
+
+	#footer h4 {
+		margin-left: 30px;
+	
+	}
+
+	div a {
+		margin-left: 30px;
+	}
+
+	#moreCentroList {
+		display: none !important;
+	}
+
+	#whyCentroList {
+		display: none !important;
+	}
+}

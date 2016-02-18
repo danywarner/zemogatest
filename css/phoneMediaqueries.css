@@ -1,0 +1,45 @@
+@media all and (min-device-width: 320px) and (max-device-height: 736px) {
+	#header {
+	margin-left: 20px;
+	width: 100%;
+	}
+
+	#header img, #header div, .menutitle{
+	display: block;
+	margin-left: 0px;
+	}
+
+	#searchBox {
+		visibility: hidden;
+	}
+
+	#boxes {
+		display: none !important;
+	}
+
+	figure img{
+		width: 245px ;
+		height: auto;
+	}
+
+	.next, .prev{
+		height: 40px;
+		width: auto;
+	}
+
+	.internalLink {
+		display: none !important;
+	}
+
+	#footer {
+		display: none !important;
+	}
+}
+
+@media all and (min-device-width: 320px) and (max-device-height: 736px) and (orientation: landscape) {
+
+		figure img{
+		width: 400px ;
+		height: auto;
+	}
+}
